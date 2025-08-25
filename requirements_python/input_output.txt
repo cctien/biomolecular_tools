@@ -1,0 +1,12 @@
+--index-url https://pypi.org/simple
+
+requests
+
+pyyaml
+orjson
+tomlkit
+# f90nml[yaml]
+
+ipython
+rich
+wadler_lindig

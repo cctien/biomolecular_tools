@@ -1,0 +1,11 @@
+git+https://github.com/cctien/ectools.git#egg=ectools
+
+--index-url https://pypi.org/simple
+
+beartype
+plum-dispatch
+returns[compatible-mypy]
+toolz
+unpacking
+
+ConfigArgParse

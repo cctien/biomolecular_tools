@@ -1,0 +1,15 @@
+openmm
+openmm-setup
+cuda-version=12.*
+
+openmm-ml
+openmm-torch
+
+# openmm-plumed
+openmmtools
+
+pdbfixer
+
+# mdtraj
+# mdanalysis
+# MDAnalysisTests

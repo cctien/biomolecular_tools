@@ -1,0 +1,15 @@
+--index-url https://pypi.org/simple
+
+# jax
+numpy
+scipy
+scipy-stubs[scipy]
+
+scikit-learn
+statsmodels
+
+pandas
+polars[numpy,graph,plot,style]
+# polars[gpu,numpy,graph,plot,style]
+
+jaxtyping

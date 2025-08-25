@@ -1,0 +1,7 @@
+-r bioinformatics.txt
+-r molecular_modelling.txt
+
+-r input_output.txt
+-r scientific_computing.txt
+
+-r programming.txt

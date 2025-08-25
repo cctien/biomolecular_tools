@@ -1,0 +1,9 @@
+--index-url https://pypi.org/simple
+
+openmm[cuda12]
+# openmm
+
+mdtraj
+MDAnalysis
+# MDAnalysis[analysis,extra_formats,parallel]
+MDAnalysisTests

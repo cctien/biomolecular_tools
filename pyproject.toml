@@ -5,7 +5,11 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "biomolecular_tools"
 version = "0.1.0"
-dependencies = []
+license = {text = "MIT"}
+dependencies = [
+    "biotite",
+    "mdanalysis",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]

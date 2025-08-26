@@ -4,7 +4,6 @@ git+https://github.com/cctien/ectools.git#egg=ectools
 
 beartype
 plum-dispatch
-returns[compatible-mypy]
 toolz
 unpacking
 

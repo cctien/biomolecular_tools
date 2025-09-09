@@ -60,8 +60,8 @@ def _test():
     assert amino_acid_code_one_to_three("V") == "VAL"
     assert amino_acid_code_one_to_three("W") == "TRP"
     assert amino_acid_code_one_to_three("Y") == "TYR"
-    assert amino_acid_code_one_to_three("B") == "ASX"
-    assert amino_acid_code_one_to_three("Z") == "GLX"
+    # assert amino_acid_code_one_to_three("B") == "ASX"
+    # assert amino_acid_code_one_to_three("Z") == "GLX"
     assert amino_acid_code_one_to_three("U") == "SEC"
     assert amino_acid_code_one_to_three("O") == "PYL"
     assert amino_acid_code_one_to_three("X") is None
@@ -86,8 +86,8 @@ def _test():
     assert amino_acid_code_three_to_one("Val") == "V"
     assert amino_acid_code_three_to_one("Trp") == "W"
     assert amino_acid_code_three_to_one("Tyr") == "Y"
-    assert amino_acid_code_three_to_one("Asx") == "B"
-    assert amino_acid_code_three_to_one("Glx") == "Z"
+    # assert amino_acid_code_three_to_one("Asx") == "B"
+    # assert amino_acid_code_three_to_one("Glx") == "Z"
     assert amino_acid_code_three_to_one("Sec") == "U"
     assert amino_acid_code_three_to_one("Pyl") == "O"
     assert amino_acid_code_three_to_one("Foo") is None

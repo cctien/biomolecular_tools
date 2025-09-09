@@ -26,10 +26,10 @@ _amino_acid_1to3_unambiguous = {
 }
 _amino_acid_1to3_ambiguous = {
     **_amino_acid_1to3_unambiguous,
+    "B": "ASX",  # Aspartic acid or Asparagine (ambiguous code)
+    "J": "XLE",  # Leucine or Isoleucine (ambiguous code)
     "X": "XAA",  # Any amino acid (ambiguous code)
-    # "B": "ASX",  # Aspartic acid or Asparagine (ambiguous code)
-    # "J": "XLE",  # Leucine or Isoleucine (ambiguous code)
-    # "Z": "GLX",  # Glutamic acid or Glutamine (ambiguous code)
+    "Z": "GLX",  # Glutamic acid or Glutamine (ambiguous code)
 }
 amino_acid_code_1to3_unambiguous = frozenbidict(_amino_acid_1to3_unambiguous)
 amino_acid_code_1to3 = frozenbidict(_amino_acid_1to3_ambiguous)

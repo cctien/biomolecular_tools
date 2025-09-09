@@ -31,6 +31,14 @@ _dict_1to3 = {
 _dict_3to1 = {v: k for k, v in _dict_1to3.items()}
 
 
+def amino_acid_code_one_to_three_strict(one_letter_code: str) -> str | None:
+    return _dict_1to3[one_letter_code.upper()]
+
+
+def amino_acid_code_three_to_one_strict(three_letter_code: str) -> str | None:
+    return _dict_3to1[three_letter_code.upper()]
+
+
 def amino_acid_code_one_to_three(one_letter_code: str) -> str | None:
     return _dict_1to3.get(one_letter_code.upper())
 

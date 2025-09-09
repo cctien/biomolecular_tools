@@ -2,7 +2,6 @@ from biotite.sequence import ProteinSequence
 
 _dict_1to3 = {
     "A": "ALA",
-    "B": "ASX",  # Aspartic acid or Asparagine ; ambiguous code
     "C": "CYS",
     "D": "ASP",
     "E": "GLU",
@@ -10,22 +9,24 @@ _dict_1to3 = {
     "G": "GLY",
     "H": "HIS",
     "I": "ILE",
-    "J": "XLE",  # Leucine or Isoleucine ; ambiguous code
     "K": "LYS",
     "L": "LEU",
     "M": "MET",
     "N": "ASN",
-    "O": "PYL",  # Pyrrolysine ; non-standard amino acid
     "P": "PRO",
     "Q": "GLN",
     "R": "ARG",
     "S": "SER",
     "T": "THR",
-    "U": "SEC",  # Selenocysteine ; non-standard amino acid
     "V": "VAL",
     "W": "TRP",
     "Y": "TYR",
-    "Z": "GLX",  # Glutamic acid or Glutamine ; ambiguous code
+    "O": "PYL",  # Pyrrolysine ; non-standard amino acid
+    "U": "SEC",  # Selenocysteine ; non-standard amino acid
+    # "B": "ASX",  # Aspartic acid or Asparagine ; ambiguous code
+    # "J": "XLE",  # Leucine or Isoleucine ; ambiguous code
+    # "X": "XAA",  # Any amino acid ; ambiguous code
+    # "Z": "GLX",  # Glutamic acid or Glutamine ; ambiguous code
 }
 _dict_3to1 = {v: k for k, v in _dict_1to3.items()}
 

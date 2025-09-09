@@ -1,32 +1,32 @@
 from biotite.sequence import ProteinSequence
 
 _dict_1to3 = {
-    "A": "ALA",
-    "C": "CYS",
-    "D": "ASP",
-    "E": "GLU",
-    "F": "PHE",
-    "G": "GLY",
-    "H": "HIS",
-    "I": "ILE",
-    "K": "LYS",
-    "L": "LEU",
-    "M": "MET",
-    "N": "ASN",
-    "P": "PRO",
-    "Q": "GLN",
-    "R": "ARG",
-    "S": "SER",
-    "T": "THR",
-    "V": "VAL",
-    "W": "TRP",
-    "Y": "TYR",
-    "O": "PYL",  # Pyrrolysine ; non-standard amino acid
-    "U": "SEC",  # Selenocysteine ; non-standard amino acid
-    # "B": "ASX",  # Aspartic acid or Asparagine ; ambiguous code
-    # "J": "XLE",  # Leucine or Isoleucine ; ambiguous code
-    # "X": "XAA",  # Any amino acid ; ambiguous code
-    # "Z": "GLX",  # Glutamic acid or Glutamine ; ambiguous code
+    "A": "ALA",  # Alanine
+    "C": "CYS",  # Cysteine
+    "D": "ASP",  # Aspartic acid
+    "E": "GLU",  # Glutamic acid
+    "F": "PHE",  # Phenylalanine
+    "G": "GLY",  # Glycine
+    "H": "HIS",  # Histidine
+    "I": "ILE",  # Isoleucine
+    "K": "LYS",  # Lysine
+    "L": "LEU",  # Leucine
+    "M": "MET",  # Methionine
+    "N": "ASN",  # Asparagine
+    "P": "PRO",  # Proline
+    "Q": "GLN",  # Glutamine
+    "R": "ARG",  # Arginine
+    "S": "SER",  # Serine
+    "T": "THR",  # Threonine
+    "V": "VAL",  # Valine
+    "W": "TRP",  # Tryptophan
+    "Y": "TYR",  # Tyrosine
+    "O": "PYL",  # Pyrrolysine (non-standard amino acid)
+    "U": "SEC",  # Selenocysteine (non-standard amino acid)
+    # "B": "ASX",  # Aspartic acid or Asparagine (ambiguous code)
+    # "J": "XLE",  # Leucine or Isoleucine (ambiguous code)
+    # "X": "XAA",  # Any amino acid (ambiguous code)
+    # "Z": "GLX",  # Glutamic acid or Glutamine (ambiguous code)
 }
 _dict_3to1 = {v: k for k, v in _dict_1to3.items()}
 

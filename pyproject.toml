@@ -13,6 +13,7 @@ bio = [
     "biotite",
 ]
 all = [
+    "bidict",
     "biotite",
     "mdanalysis",
 ]

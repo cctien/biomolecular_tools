@@ -10,3 +10,4 @@ tomlkit
 ipython
 rich
 wadler_lindig
+# tabulate

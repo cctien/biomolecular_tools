@@ -1,6 +1,8 @@
+# git+https://github.com/cctien/biomolecular_tools.git#egg=biomolecular_tools
+
 --index-url https://pypi.org/simple
 
-biopython
+# biopython
 biotite >= 1.4.0
 
 # gemmi

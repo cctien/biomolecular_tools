@@ -1,15 +1,16 @@
 --index-url https://pypi.org/simple
 
-# jax
-numpy
+# pandas
+# pandas[performance]
+# pandas-stubs
+
+polars[pandas,numpy,pyarrow,async,graph,plot,style]
+# polars[gpu,pandas,numpy,pyarrow,async,graph,plot,style]
+
 scipy
 scipy-stubs[scipy]
 
-scikit-learn
-statsmodels
-
-pandas
-polars[numpy,graph,plot,style]
-# polars[gpu,numpy,graph,plot,style]
-
+# jax[cuda12]
+# jax
 jaxtyping
+numpy
